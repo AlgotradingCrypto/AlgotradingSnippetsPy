@@ -1,5 +1,6 @@
 # Algotrading Crypto 
 # https://algotradingcrypto.com/d/22-the-aedge-of-tomorrow/12
+# https://algotradingcrypto.com/d/31-how-to-calculate-binance-initial-and-maintenance-margins-in-python
 # https://www.binance.com/en/support/faq/360033162192
 
 BINANCE_FUTURES_SCHEDULE = {
