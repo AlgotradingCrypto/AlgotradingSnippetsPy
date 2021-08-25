@@ -2,6 +2,7 @@
 # https://algotradingcrypto.com/d/22-the-aedge-of-tomorrow/12
 # https://algotradingcrypto.com/d/31-how-to-calculate-binance-initial-and-maintenance-margins-in-python
 # https://www.binance.com/en/support/faq/360033162192
+# https://www.binance.com/en/support/faq/360033162192
 
 BINANCE_FUTURES_SCHEDULE = {
     'BTCUSDT': [
@@ -17,16 +18,16 @@ BINANCE_FUTURES_SCHEDULE = {
             { 'quantum': 500_000_000, 'max_leverage': 1, 'initial_margin_rate': 1.0000, 'maintenance_margin_rate': 0.5000 },
         ],
     'ETHUSDT': [
-            { 'quantum': 10_000, 'max_leverage': 100, 'initial_margin_rate': 0.0080, 'maintenance_margin_rate': 0.0050},
+            { 'quantum': 10_000, 'max_leverage': 100, 'initial_margin_rate': 0.0080, 'maintenance_margin_rate': 0.0050 },
             { 'quantum': 100_000, 'max_leverage': 75, 'initial_margin_rate': 0.0100, 'maintenance_margin_rate': 0.0065 },
             { 'quantum': 500_000, 'max_leverage': 50, 'initial_margin_rate': 0.0200, 'maintenance_margin_rate': 0.0100 },
-            { 'quantum': 1_000_000, 'max_leverage': 25, 'initial_margin_rate': 0.0500, 'maintenance_margin_rate': 0.0200, 'maintenance_amount': 5_365 },
-            { 'quantum': 2_000_000, 'max_leverage': 10, 'initial_margin_rate': 0.1000, 'maintenance_margin_rate': 0.0500, 'maintenance_amount': 35_365 },
-            { 'quantum': 5_000_000, 'max_leverage': 5, 'initial_margin_rate': 0.2000, 'maintenance_margin_rate': 0.1000, 'maintenance_amount': 135_365 },
-            { 'quantum': 10_000_000, 'max_leverage': 4, 'initial_margin_rate': 0.2500, 'maintenance_margin_rate': 0.1250, 'maintenance_amount': 260_365 },
-            { 'quantum': 20_000_000, 'max_leverage': 3, 'initial_margin_rate': 0.3330, 'maintenance_margin_rate': 0.1500, 'maintenance_amount': 510_365 },
-            { 'quantum': 20_000_000, 'max_leverage': 2, 'initial_margin_rate': 0.5000, 'maintenance_margin_rate': 0.2500, 'maintenance_amount': 251_0365 },
-            { 'quantum': 20_000_000, 'max_leverage': 1, 'initial_margin_rate': 1.0000, 'maintenance_margin_rate': 0.2500, 'maintenance_amount': 251_0365 },
+            { 'quantum': 1_000_000, 'max_leverage': 25, 'initial_margin_rate': 0.0500, 'maintenance_margin_rate': 0.0200 },
+            { 'quantum': 2_000_000, 'max_leverage': 10, 'initial_margin_rate': 0.1000, 'maintenance_margin_rate': 0.0500 },
+            { 'quantum': 5_000_000, 'max_leverage': 5, 'initial_margin_rate': 0.2000, 'maintenance_margin_rate': 0.1000 },
+            { 'quantum': 10_000_000, 'max_leverage': 4, 'initial_margin_rate': 0.2500, 'maintenance_margin_rate': 0.1250 },
+            { 'quantum': 20_000_000, 'max_leverage': 3, 'initial_margin_rate': 0.3330, 'maintenance_margin_rate': 0.1500 },
+            { 'quantum': 20_000_000, 'max_leverage': 2, 'initial_margin_rate': 0.5000, 'maintenance_margin_rate': 0.2500 },
+            { 'quantum': 20_000_000, 'max_leverage': 1, 'initial_margin_rate': 1.0000, 'maintenance_margin_rate': 0.2500 },
         ],
     ('ADAUSDT', 'BNBUSDT', 'DOTUSDT', 'EOSUSDT', 'ETCUSDT', 'LINKUSDT', 'LTCUSDT', 'TRXUSDT', 'XLMUSDT', 'XMRUSDT', 'XRPUSDT', 'XTZUSDT', 'BCHUSDT'): [
             { 'quantum': 10_000, 'max_leverage': 75, 'initial_margin_rate': 0.0100, 'maintenance_margin_rate': 0.0065 },
