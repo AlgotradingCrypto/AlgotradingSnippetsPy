@@ -1,5 +1,4 @@
 # Algotrading Crypto 
-# Submitted by Raymond Luo
 # https://algotradingcrypto.com/d/22-the-aedge-of-tomorrow/12
 # https://www.binance.com/en/support/faq/360033162192
 
